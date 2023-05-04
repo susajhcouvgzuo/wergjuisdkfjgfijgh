@@ -1,0 +1,151 @@
+<html><head>
+	<title>Galeria de Fotos</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+	<body><h3>
+
+
+    <center>   
+    <ul class="menu1">
+      <li class="links"><a href="#home">Início</a></li>
+        <li class="links"><a href="#Grids">Visualização em grade</a></li>
+        <!--Adicione Grids na href, como em href="#Grids"-->
+        <li class="links"><a href="#Slides">Visualização em slide</a></li>
+        <!--Adicione Slides no href, como em href="#Slides"-->
+		    
+    </ul>
+</center>
+</h3>
+
+
+<div class="container">
+    <section id="home">
+    <div class="page-header">
+  		<h2 class="text-capitalize"></h2>
+        <img id="img1" src="flowers.gif" class="img-responsive">
+    </div>
+          </section>
+       <!---->
+   <hr style="width: 100%;">
+     <section id="Grids">
+        <h2> Galeria em grade</h2>   
+          <br>
+         <script src=""></script>
+          <div class="row">
+              <img class="img2" src="blue.jpg">
+              <img class="img2" src="Orange.png">
+              <img class="img2" src="Pink tulip.jpg">
+              <img class="img2" src="purple.jpg">
+              <br><br>	
+            </div>
+          <div class="row">
+            <img class="img2" src="Red rose.jpg">
+            <img class="img2" src="violet.jpg">
+            <img class="img2" src="White.jpg">
+            <img class="img2" src="yellow.jpg">
+             </div>
+             
+ </section>
+   
+    <br>
+    <br>
+     <hr style="width: 100%;">
+    
+      
+       <!-- Left and right controls -->
+    <section id="Slides">
+       <h2>Galeria deslizante</h2>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+   
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item">
+        <img class="img-responsive" src="blue.jpg" alt="Blue" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Flor Azul</h3>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="item active">
+        <img class="img-responsive" src="Orange.png" alt="Orange" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Flor Laranja</h3>
+          <p></p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img class="img-responsive" src="Pink tulip.jpg" alt="Pink" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Tulipa Rosa</h3>
+          <p></p>
+        </div>
+      </div>
+         <div class="item">
+        <img class="img-responsive" src="purple.jpg" alt="Purple" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Flor Roxa</h3>
+          <p></p>
+        </div>
+      </div>
+         <div class="item">
+        <img class="img-responsive" src="Red rose.jpg" alt="Red" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Rosa Vermelha</h3>
+          <p></p>
+        </div>
+      </div>
+         <div class="item">
+        <img class="img-responsive" src="violet.jpg" alt="Violet" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Flor Violeta</h3>
+          <p></p>
+        </div>
+      </div>
+         <div class="item">
+        <img class="img-responsive" src="White.jpg" alt="White" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Flor Branca</h3>
+          <p></p>
+        </div>
+      </div>
+         <div class="item">
+        <img class="img-responsive" src="yellow.jpg" alt="Yellow" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Flor Amarela</h3>
+          <p></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+        <!--add glyphicon glyphicon-chevron-right here-->
+      <span class="sr-only">Próximo</span>
+    </a>
+  </div>
+    </section>
+        </div>
+
+
+
+</body></html>
